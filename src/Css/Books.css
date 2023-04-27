@@ -1,0 +1,187 @@
+body {
+  overflow-x: hidden;
+}
+.book-controll {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  padding: 5px 5px 10px 20px;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  margin-top: 2rem;
+  /* overflow-x:hidden !important ; */
+  color: white;
+}
+.card {
+  /* padding: 10px; */
+  width: 80%;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.controll-booklist {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.controll-booklist img {
+  width: 100% !important;
+  height: 70vh !important;
+  object-position: center;
+  margin-top: 20px;
+  justify-content: top;
+  object-fit:top !important;
+  box-shadow: 1px 5px 1rem 5px grey;
+  border-radius: 1rem;
+}
+.controll-booklist img:hover {
+  position: relative;
+  box-shadow: 1px 5px 1rem 5px rgb(20, 16, 16);
+  border: 2px solid white;
+  transition: all 1.5s ease-in-out;
+  transform: scale(1.2);
+  z-index: 9000;
+}
+
+::-webkit-scrollbar {
+  background-image: url("https://i.pinimg.com/236x/fe/3f/6c/fe3f6c06968f5193172e6bbfe814ad38.jpg");
+ 
+  width: 1.5rem;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb {
+  background: url("https://i.pinimg.com/236x/bc/c1/f1/bcc1f177476ababd1f60806c2120ad28.jpg");
+  height: fit-content;
+  border-radius: 5rem;
+  width: 0.5rem !important;
+  scroll-behavior: smooth;
+ scale: rotate(145deg);
+  background-position:center;
+  background-blend-mode: darken;
+  object-fit: cover;
+  background-repeat: repeat;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: url("https://i.pinimg.com/236x/5c/45/09/5c4509d6981c4c89704edbdf929886d1.jpg");
+  height: fit-content;
+  border-radius: 5rem;
+  width: 0.5rem !important;
+  scroll-behavior: smooth;
+  background-position:center;
+  background-blend-mode:overlay !important;
+  object-fit: cover;
+  background-repeat: repeat;
+  background-clip: content-box;
+}
+.btn-grp {
+  display: flex;
+  gap: 1rem;
+  border-radius: 5px 5px 5px 5px !important;
+  margin: 0rem 0rem 5rem 0rem;
+
+  padding: 5px;
+  justify-content: center;
+}
+.card-booklist:hover {
+  border: 2px solid white;
+  border-radius: 1rem;
+
+  box-shadow: 2px 5px 1rem 5px rgba(11, 11, 11, 0.918);
+  margin-bottom: 1rem;
+  transition: all 250ms cubic-bezie(250, 320, 210, 12);
+}
+.card-booklist {
+  background-color: #544d21f4;
+  border-radius: 1rem;
+  text-overflow:ellipsis !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word !important;
+  white-space:pre-line !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* padding: 1rem !important; */
+  box-shadow: 2px 5px 1rem 5px rgba(11, 11, 11, 0.918);
+  margin-bottom: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+p:hover {
+  overflow-y: visible;
+  text-overflow: ellipsis;
+  white-space: inherit;
+  background-color: whitesmoke;
+  color: black;
+  height: 10vh !important;
+
+  transition: all 1s ease-in-out !important ;
+  transform: scale(1);
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: flex;
+  letter-spacing: 1px;
+  flex-wrap: wrap;
+  height: 10vh !important;
+  width: 360px;
+  max-width: 200vw;
+  font-family: cursive;
+}
+p:hover {
+  margin-right: 10rem !important;
+  width:25vw !important ;
+  transition: all 1.5s ease-in-out !important ;
+  transform: scale(1);
+
+}
+
+b {
+  color: rgb(243, 85, 46);
+  font-family: algerian;
+  font-weight: 300;
+  text-shadow: 2rem solid yellowgreen;
+}
+.main-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: hidden;
+  display: flex;
+  letter-spacing: 1px;
+  flex-wrap: wrap;
+  width: 360px;
+  max-width: 200vw;
+}
+.title {
+  width: 100vw !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+  white-space: wrap !important;
+  display: flex;
+  font-family: typewriting 'Times New Roman', Times, serif;
+  height: 15vh !important;
+  color: rgb(248, 246, 246);
+  font-size: 20px !important;
+}
+.main-title .title:hover {
+  width: 100vw !important;
+  text-align: left;
+  overflow-y: visible;
+  white-space: pre-wrap !important;
+  display: flex;
+  text-overflow: ellipsis;
+  margin-right: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  height: 25vh !important;
+  color: rgb(20, 19, 19);
+  font-size: 20px !important;
+  transition: all 1s ease-in-out !important ;
+  transform: scale(1);
+}

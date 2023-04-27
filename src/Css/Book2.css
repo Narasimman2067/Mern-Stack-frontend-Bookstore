@@ -1,0 +1,199 @@
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .book-controll {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    width: 100vw;
+  }
+  .card-booklist {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+
+  .main-title {
+    width: 330px !important;
+    max-width: 500vw;
+  }
+  .main-title .title {
+    width: 100vw !important;
+    max-width: 100vw;
+    display: grid !important;
+  }
+  .main-title .title:hover {
+    width: 100vw !important;
+    text-align: left !important;
+    overflow-y: visible;
+    white-space: visible;
+    border-radius: 2rem;
+    margin-right: 1rem;
+
+    transition: all 1.5s ease-in-out !important ;
+    transform: scale(1);
+  }
+  p {
+    width: 340px;
+    max-width: 200vw;
+  }
+}
+
+@media only screen and (min-width: 608px) and (max-width: 1200px) {
+  .book-controll {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin: 2rem 1rem;
+  }
+
+  .controll-booklist img {
+    width: 100% !important;
+    height: 50vh !important;
+    object-position: top;
+    object-fit: fill !important;
+    box-shadow: 1px 5px 3rem 5px #160604;
+    /* margin-left: 1rem; */
+  }
+  .main-title {
+    width: 230px !important;
+    max-width: 500vw;
+    height: 20vh;
+  }
+  .main-title .title {
+    width: 100vw !important;
+    max-width: 100vw;
+    display: grid !important;
+  }
+  p {
+    height: 15vh !important;
+
+    width: 200px !important;
+    max-width: 230px;
+    text-align: left;
+  }
+  p:hover {
+    text-overflow: ellipsis;
+    overflow-y: visible;
+    white-space: inherit;
+    display: flex;
+    height: 10vh !important;
+    flex-wrap: wrap;
+    width: 20vw !important;
+    /* max-width: 10vw; */
+    border-radius: 0.5rem;
+    transition: all 1s ease-in-out !important ;
+    transform: scale(1.2);
+  }
+  .card-booklist {
+    padding: 1rem 2rem;
+    height: 120vh;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+  .book-controll {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    width: 100vw;
+  }
+
+  .card-booklist {
+    width: 280px;
+    max-width: 300px;
+    height: 105vh;
+    padding: 1rem 1rem 1rem 2rem;
+  }
+  .main-title {
+    width: 230px !important;
+    max-width: 500vw;
+    height: 20vh;
+  }
+  .controll-booklist img {
+    width: 30vw !important;
+    height: 35vh !important;
+  }
+  p {
+    text-overflow: ellipsis !important;
+
+    width: 35vw !important;
+
+    max-width: 35vw;
+  }
+
+  .title::-webkit-scrollbar {
+    width: 1rem !important;
+  }
+  .title::-webkit-scrollbar-thumb {
+    width: 1rem !important;
+    background-color: rgb(214, 217, 220) !important;
+  }
+}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+
+  .book-controll {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    width:100vw !important;
+  }
+
+  .card-booklist {
+    width: 80vw !important;
+    max-width: 100vw;
+    height: 105vh;
+   padding: 1rem 1.5rem;
+   margin:0.5rem 1rem;
+  }
+  .controll-booklist img {
+    width: 60vw !important;
+    height: 40vh !important;
+    margin: 1rem 1.5rem;
+    object-fit: fill !important;
+    
+  }
+  .main-title {
+    width: 70vw !important;
+    max-width: 500vw;
+    height: 20vh;
+  }
+  .title{
+    width: 70vw !important;
+    max-width: 500vw;
+    height: 40vh !important;
+  }
+  .main-title .title:hover {
+    width: 70vw !important;
+    max-width: 500vw;
+    height: 30vh !important;
+  }
+  p {
+    text-overflow: ellipsis !important;
+
+    width: 75vw !important;
+
+    max-width: 75vw;
+  }
+  p:hover{
+    text-overflow: ellipsis !important;
+
+    width: 65vw !important;
+
+    max-width: 75vw;
+  }
+
+  .title::-webkit-scrollbar {
+    width: 1rem !important;
+  }
+  .title::-webkit-scrollbar-thumb {
+    width: 1rem !important;
+    background-color: rgb(214, 217, 220) !important;
+  }
+
+
+
+
+
+
+
+
+
+}

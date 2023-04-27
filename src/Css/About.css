@@ -1,0 +1,80 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.typo{
+    font-size:3rem !important;
+    padding:0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    background-image: linear-gradient(135deg, #6B73FF 10%, #000DFF 100%);
+    border-radius: 5rem;
+    font-family: monospace;
+
+    color: whitesmoke;
+    
+
+}
+.book{
+    color: #FFC600;
+    font-family:'monsterat',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    animation-direction:normal;
+    transition-property: 1.5ms ease-in-out;
+    text-transform: uppercase !important;
+}
+.typo2{
+    font-size:3rem !important;
+    padding:0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    background-color:#030a33;
+    border-radius: 5rem;
+
+    color: whitesmoke;
+    
+
+}
+
+@media only screen and (min-width:368px) and (max-width:1200px) {
+    .typo{
+        font-size:2rem !important;
+        padding:0.5rem 4rem;
+        margin-right:2rem ;
+        background-image: linear-gradient(135deg, #F97794 10%, #623AA2 100%);
+    }
+    .typo2{
+        font-size:2rem !important;
+       
+    }
+    .book{
+        color: #f5de0e;
+       
+    }
+}
+@media only screen and (min-width:68px) and (max-width:500px) {
+    .typo{
+        font-size:1.5rem !important;
+        padding:0rem 1rem;
+        margin-right:1rem ;
+        background-image: linear-gradient(135deg, #C33764 10%, #1D2671 100%);
+    }
+    .typo2{
+        font-size:2rem !important;
+       
+    }
+    .book{
+        color: #f5de0e;
+       
+    }
+}

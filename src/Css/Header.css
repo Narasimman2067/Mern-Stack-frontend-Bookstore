@@ -1,0 +1,30 @@
+.header-top{
+height: 70px;
+position:sticky;
+background-color:#10100c14 !important;
+z-index: 10000;
+}
+.tabcontroll{
+    position:absolute;
+    display:flex;
+    right: 0;
+    z-index:100;
+    column-gap: 2rem !important;
+  
+}
+.library:hover{
+    background-color: orangered;
+    font-size: 3rem;
+    transition: all 1.5s ease-in-out;
+    transform: scale(1.2);
+}
+.tab-child:hover{
+    color: rgb(243, 241, 240);
+    background-color:orangered;
+    border-radius:20px !important;
+    transition: all 1.5s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+

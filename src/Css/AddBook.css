@@ -1,0 +1,69 @@
+.formcontrol {
+  display: flex;
+width:100vw;
+
+  height: 80vh;
+  max-height: auto;
+  flex-direction: column;
+  justify-content: center !important;
+
+  margin-top: 4.5rem !important;
+  margin-bottom: 2rem;
+  padding: 0rem 20rem 2rem 20rem !important;
+}
+
+.boxcontroll {
+  max-width: 700;
+  margin-top: 0px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding:1rem 3rem 1rem 3rem;
+
+  border-radius: 2rem;
+}
+
+.btn-addbook {
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+}
+.btn-addbook2 {
+  background-color: rgb(38, 38, 214) !important;
+}
+
+.formlabel-control {
+  color: #033f15 !important;
+  font-family: algerian !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+
+@media only screen and (min-width: 68px) and (max-width: 600px) {
+  .formcontrol {
+    display: flex;
+    height: 80vh;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: center !important;
+
+    margin-top: 4rem !important;
+    margin-bottom: 1rem !important;
+    padding: 0rem 2rem 2rem 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width:1500px) {
+    .formcontrol {
+        display: flex;
+        width: 100vw;
+        height: 80vh;
+        max-height: auto;
+        flex-direction: column;
+        justify-content: center !important;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        padding: 5rem 10rem 5rem 10rem !important;
+      }
+}
