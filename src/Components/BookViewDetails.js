@@ -17,7 +17,7 @@ const [checked,setChecked] =useState(false)
 useEffect(()=>{
 
 const fetchHandler =async()=>{
-    await axios.get(`http://localhost:8000/books/${_id}`)
+    await axios.get(`https://mern-stack-project-1-bookstore.vercel.app/books/${_id}`)
     .then((res)=>res.data).then((data)=>setInputs(data.book))
 .catch((err)=>console.log(err))
 
@@ -30,7 +30,7 @@ fetchHandler()
 
 
 const sendRequest =async()=>{
-    await axios.put(`http://localhost:8000/books/edit/${_id}`,{
+    await axios.put(`https://mern-stack-project-1-bookstore.vercel.app/books/edit/${_id}`,{
   bookname:String(inputs.bookname),
   author:String(inputs.author),
   description:String(inputs.description),

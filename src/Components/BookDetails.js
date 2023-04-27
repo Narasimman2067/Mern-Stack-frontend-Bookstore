@@ -11,7 +11,7 @@ export function Book(props) {
 
   const deleteBook = async () => {
     await axios
-      .delete(`http://localhost:8000/books/delete/${_id}`)
+      .delete(`https://mern-stack-project-1-bookstore.vercel.app/books/delete/${_id}`)
       .then((res) => res.data)
       .catch((err) => console.log(err));
   };

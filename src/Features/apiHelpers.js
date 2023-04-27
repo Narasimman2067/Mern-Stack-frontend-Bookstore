@@ -1,4 +1,4 @@
-const host ="http://localhost:8000";
+const host ="https://mern-stack-project-1-bookstore.vercel.app";
 
 export const getBookRoutes=`${host}/books`
 export const getBookById=`${host}/books/:id`
