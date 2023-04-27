@@ -9,11 +9,10 @@ body {
   align-content: center;
   width: 100vw;
   margin-top: 2rem;
-  /* overflow-x:hidden !important ; */
   color: white;
 }
 .card {
-  /* padding: 10px; */
+
   width: 80%;
   max-width: 100%;
   max-height: auto;
